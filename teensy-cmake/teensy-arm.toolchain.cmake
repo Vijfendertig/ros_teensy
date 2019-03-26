@@ -149,6 +149,8 @@ set(TEENSY_CXX_CORE_FILES
     ${TEENSY_ROOT}/DMAChannel.cpp
     ${TEENSY_ROOT}/AudioStream.cpp
     ${TEENSY_ROOT}/WString.cpp
+
+    ${TEENSY_ROOT}/EventResponder.cpp
 )
 
 macro(add_teensy_executable TARGET_NAME)
